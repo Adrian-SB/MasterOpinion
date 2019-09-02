@@ -740,6 +740,25 @@ p.paragraph{
 	-o-box-shadow: inset 0px 0px 3px #FCF1DD;
 	-webkit-appearance:none;
 }
+
+/* Modificacion del estilo password*/
+.contact-form input[type="password"]{
+	padding:8px;
+	display:block;
+	width:98%;
+	background:#FFEECF;
+	border: none;
+	outline:none;
+	color:#464646;
+	font-size:0.8125em;
+	font-family:Arial, Helvetica, sans-serif;
+	box-shadow: inset 0px 0px 3px #FCF1DD;
+	-webkit-box-shadow: inset 0px 0px 3px #FCF1DD;
+	-moz-box-shadow: inset 0px 0px 3px #FCF1DD;
+	-o-box-shadow: inset 0px 0px 3px #FCF1DD;
+	-webkit-appearance:none;
+}
+
 .contact-form textarea{
 	resize:none;
 	height:120px;		
