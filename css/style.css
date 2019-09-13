@@ -150,16 +150,18 @@ body{
 	padding-bottom: 2%;
 }
 .logo{
-	float:left;
+	text-align: center; 
 }
 .header-bot{
 	padding: 1% 0;
 }
 .grid_img img {
 	display:block;
+	width:450px;
+	height:200px;
 }
 .hover_img img{
-	width:100%;
+	
 	-webkit-transition-duration: 0.5s; 
 	-moz-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s; 
@@ -183,6 +185,8 @@ body{
 -moz-transition: .2s all linear;
 -o-transition: .2s all linear;
 transition: .2s all linear;
+width:450px;
+height:200px;
 }
 .banner2 .price {
 	font-family: 'Patua One', cursive;
